@@ -89,19 +89,54 @@
             </tbody>
         </table>
         <!--Forms in HTML -->
+        <h4>Registration Form</h4>
         <form action="/action.php">
             <input type="text" placeholder="User Name">
             <br>
             <input type="password" placeholder="Enter password">
             <br>
+            <h5>Select Your Class</h5>
             <label for="101">
                 <input type="radio" value="Class XI" name="Class" id="101">Class XI
             </label>
             <label for="102">
                 <input type="radio" value="Class XII" name="Class" id="102">Class XII
             </label>
-           
+            <h5>Select your subjects</h5>
+           <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101">Mathematics
+           </label>
+           <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="102">Physics
+           </label>
+           <label for="chem">
+            <input type="checkbox" value="chem" name="subject" id="103">Chemistry
+           </label>
+           <label for="Bio">
+            <input type="checkbox" value="Bio" name="subject" id="104">Biology
+           </label>
+           <label for="Eng">
+            <input type="checkbox" value="Eng" name="subject" id="105">English
+           </label>
+           <label for="CS">
+            <input type="checkbox" value="CS" name="subject" id="106">Computer Science
+           </label>
+           <h5>Choose Your Home City</h5>
+           <select name="City" id="301">
+            <option value="Delhi">Delhi</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Ranchi">Ranchi</option>
+            <option value="Patna">Patna</option>
+            <option value="Pune">Pune</option>
+           </select>
+           <br>
+           <h5>Feedback</h5>
+           <textarea name="feedback" id="201" placeholder="Please Give Your Valuable Feedback" rows="5"></textarea>
+           <br>
+           <input type="submit" value="submit">
         </form>
+
+
     </main>
     <footer>
         <p>Contact me at Sushatoraon04@gmail.com</p>
